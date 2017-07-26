@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_welcome"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="@dimen/length20"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_welcome_point_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/length5"
+            android:background="@mipmap/welcome_point" />
+
+        <ImageView
+            android:id="@+id/iv_welcome_point_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/length5"
+            android:background="@mipmap/welcome_point" />
+
+        <ImageView
+            android:id="@+id/iv_welcome_point_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/length5"
+            android:background="@mipmap/welcome_point" />
+    </LinearLayout>
+</FrameLayout>

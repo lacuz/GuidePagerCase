@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitStart"
+        android:src="@mipmap/bg_guide_page_3" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/length75"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/welcome_title_three" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/length14"
+            android:text="解  放  双  手      安  全  骑  行"
+            android:textColor="#ff7f7f7f"
+            android:textSize="@dimen/font14" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_welcome_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="@dimen/length50"
+        android:background="@drawable/welcome_shape"
+        android:onClick="welcome_in"
+        android:paddingBottom="@dimen/length14"
+        android:paddingLeft="@dimen/length36"
+        android:paddingRight="@dimen/length36"
+        android:paddingTop="@dimen/length14"
+        android:text=" 一起探索U生活 "
+        android:textColor="#ffffff"
+        android:textSize="@dimen/font16" />
+</FrameLayout>
